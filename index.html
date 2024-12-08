@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Language</title>
+    <!-- Favicon img -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <!-- Bootstarp min css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- All min css -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- Swiper bundle min css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Magnigic popup css -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <!-- Nice select css -->
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- Header area start here -->
+
+    <!-- Header area end here -->
+
+    <main>
+        <!-- Class time area start here -->
+        <div class="container pt-120">
+            <p>But I must Rony explain to you how all this mistaken idea of denouncing pleasure and praising pain was
+                born
+                and I
+                will give
+                you a complete account of the system, and expound the actual teachings of the great explorer of the
+                truth,
+                the
+                master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is
+                pleasure, but
+                because those who do not know how to pursue pleasure rationally encounter consequences that are
+                extremely
+                painful. Nor
+                again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but
+                because
+                occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a
+                trivial example,
+                which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But
+                who
+                has any right
+                to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who
+                avoids a pain
+                that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and
+                dislike
+                men who are
+                so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they
+                cannot
+                foresee</p>
+            <div class="gtranslate_wrapper"></div>
+            <p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born
+                and I
+                will give
+                you a complete account of the system, and expound the actual teachings of the great explorer of the
+                truth,
+                the
+                master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is
+                pleasure, but
+                because those who do not know how to pursue pleasure rationally encounter consequences that are
+                extremely
+                painful. Nor
+                again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but
+                because
+                occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a
+                trivial example,
+                which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But
+                who
+                has any right
+                to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who
+                avoids a pain
+                that produces no resultant pleasure? On the other hand, we denounce with righteous indignation and
+                dislike
+                men who are
+                so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they
+                cannot
+                foresee</p>
+        </div>
+        <!-- Class time area end here -->
+    </main>
+
+    <!-- Footer area start here -->
+
+    <!-- Footer area end here -->
+
+    <!-- Jquery 3. 7. 1 Min Js -->
+    <script>
+        window.gtranslateSettings = {
+            "default_language": "en",
+            "languages": ["en", "ar", "bn", "fr", "de", "it", "es"],
+            "wrapper_selector": ".gtranslate_wrapper"
+        };
+
+        // Function to update dir attribute based on selected language
+        function updateDirAttribute(language) {
+            var htmlTag = document.querySelector('html');
+            if (language === 'ar') {
+                htmlTag.setAttribute('dir', 'rtl');
+            } else {
+                htmlTag.removeAttribute('dir');
+            }
+        }
+
+        // Listen for language change event
+        window.addEventListener('languagechange', function (event) {
+            updateDirAttribute(event.detail.language);
+        });
+    </script>
+    <script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <!-- Bootstrap min Js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Swiper bundle min Js -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <!-- Counterup min Js -->
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <!-- Wow min Js -->
+    <script src="assets/js/wow.min.js"></script>
+    <!-- Magnific popup min Js -->
+    <script src="assets/js/magnific-popup.min.js"></script>
+    <!-- Nice select min Js -->
+    <script src="assets/js/nice-select.min.js"></script>
+    <!-- Isotope pkgd min Js -->
+    <script src="assets/js/isotope.pkgd.min.js"></script>
+    <!-- Waypoints Js -->
+    <script src="assets/js/jquery.waypoints.js"></script>
+    <script src="assets/js/vanilla-tilt.js"></script>
+    <!-- Script Js -->
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
